@@ -26,7 +26,7 @@ author = 'Matthew Mosior'
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = ''
+release = '1.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -80,7 +80,9 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+#html_theme_options = {
+#'navigation_depth: 3' 
+#}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -172,7 +174,7 @@ epub_title = project
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
 
-#Things I added.
+#STUFF BELOW HERE IS WHAT I ADDED.
 
 from recommonmark.parser import CommonMarkParser
 
